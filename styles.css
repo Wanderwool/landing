@@ -1,0 +1,181 @@
+body {
+font-family: roboto;
+margin: 0;
+}
+.top {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 15% 128px 15%;
+    gap: 96px;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+ font-size: 28px;
+ color: #f9faf8;
+
+}
+
+ul {
+    display:flex;
+    list-style-type:none;
+    gap: 8px;
+    
+    margin-left:auto;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    align-items: stretch;
+
+    
+    
+    
+}
+.hero-text {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-secondary-text, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    padding: 4px 16px;
+    width: fit-content;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #e5e7eb;
+
+
+}
+
+.hero-img {
+    height: 250px;
+    margin-left: auto;
+    width: 700px;
+   
+}
+
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 15% 128px 15%;
+    gap: 96px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.information-squares {
+ display: flex;
+ 
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+   
+}
+
+.square-text {
+    text-align: center;
+    max-width: 200px;
+}
+
+.square-img {
+    max-width: 200px;
+    max-height: auto;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 30% 128px 30%;
+    gap: 8px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.sign-up {
+    padding: 64px 30% 128px 30%;
+    color: white;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 3% 5%;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+
+.blue-header {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.blue-button{
+    background-color: #3882f6;
+    color:white;
+    border-radius: 10px;
+   
+    flex-basis: 80px;
+    border-color: white;
+}
+
+.footer {
+    flex: 1 1 auto;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0 1% 0;
+    
+}
+
+#footer-text {
+    color: white;
+}
